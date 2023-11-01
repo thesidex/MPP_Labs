@@ -1,0 +1,12 @@
+Explain why this has happened:
+ 
+On the initial implementation, the equals() method
+Overridden in the Person class was implemented by comparing only the 'name'
+field but in the PersonWithJob class equals() method it was comparing the
+'name 'and 'salary' fields which is not a consistent comparison so it returns
+false.
+
+Initially, p1 (PersonWithJon type) equals() method compares name and salary
+field and since p2 was a Person type it didn't have salary field so it
+generates false. And p2.equals(p1) returned true because only the name field was
+compared in the equals() method in p2 which is of Person type.

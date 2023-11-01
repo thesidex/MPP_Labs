@@ -1,0 +1,1 @@
+In essence, while a Cylinder "IS-A" Circle in a geometric sense, it doesn't conform to the Liskov Substitution Principle when considering the expectations and behavior of the base class (Circle) when used in a 2D context.

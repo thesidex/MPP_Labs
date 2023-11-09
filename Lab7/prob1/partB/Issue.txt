@@ -1,0 +1,2 @@
+What is wrong with the solution:
+equals() and hashCode() needed to be implemented correctly.

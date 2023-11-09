@@ -1,0 +1,2 @@
+What is wrong with the solution:
+hashCode() needed to be implemented with Objects.hash(name, salary).
